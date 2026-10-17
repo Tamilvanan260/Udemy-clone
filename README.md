@@ -2,7 +2,7 @@
 
 A static, responsive clone of the Udemy homepage built with semantic HTML5 and CSS3 (Flexbox). No frameworks, no JavaScript.
 
-**Live Demo:** https://tamilvanan260.github.io/udemy-clone/
+**Live Demo:** [https://tamilvanan260.github.io/udemy-clone/](https://tamilvanan260.github.io/Udemy-clone/)
 
 <img width="1353" height="631" alt="Screenshot 2026-10-17 223342" src="https://github.com/user-attachments/assets/c77a0230-cd9d-44f2-acde-36e1041f5ceb">
 
