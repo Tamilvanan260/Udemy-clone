@@ -4,7 +4,8 @@ A static, responsive clone of the Udemy homepage built with semantic HTML5 and C
 
 **Live Demo:** https://tamilvanan260.github.io/udemy-clone/
 
-<img width="1353" height="631" alt="Screenshot 2026-10-17 223342" src="https://github.com/user-attachments/assets/c77a0230-cd9d-44f2-acde-36e1041f5ceb" 
+<img width="1353" height="631" alt="Screenshot 2026-10-17 223342" src="https://github.com/user-attachments/assets/c77a0230-cd9d-44f2-acde-36e1041f5ceb">
+
 <img width="1353" height="633" alt="Screenshot 2026-10-17 223401" src="https://github.com/user-attachments/assets/c1e0ba97-214e-48e7-944c-b9dd619b9444" />
 
 
