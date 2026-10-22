@@ -221,7 +221,8 @@ body {
 .footer {
     background-color: black;
     color: white;
-    padding: 30px;
+    padding: 20px;
+    position: relative;
 }
 
 .footer__one {
@@ -230,18 +231,17 @@ body {
 }
 
 .footer__one p {
-    margin: 16px;
-}
-
-.footer__two {
     margin: 15px;
 }
 
 .footer__two {
+    margin: 15px;
     display: flex;
     justify-content: space-between;
-    ;
+    align-items: center;
 }
+
+
 
 
 .hero-content {
@@ -261,6 +261,7 @@ body {
     opacity: 0;
     animation-fill-mode: forwards;
 }
+
 
 @keyframes zoom {
     0%{
@@ -376,6 +377,11 @@ body {
     .course-card p {
         font-size: 11px;
         padding: 1px 0;
+    }
+
+    .footer__one__s1{
+        margin-left: 200px;
+        
     }
 }
 
