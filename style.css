@@ -1,6 +1,7 @@
- * {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -62,6 +63,9 @@ body {
     gap: 10px;
     align-items: center;
 
+}
+.navbar__s4{
+    display: none;
 }
 
 .mylearning{
@@ -144,8 +148,8 @@ body {
 
 .course-card {
     flex-grow: 1;
-    width: 250px;
-    margin: 20px;
+    flex-basis: 20%;
+    margin: 15px;
     background-color: #fff;
     padding: 10px;
     border: 1px solid #ddd;
@@ -266,5 +270,56 @@ body {
 .hero-content p {
     font-size: 1.2vw;
     margin: 0;
+}
+
+
+/* Media Queries */
+
+/* Tablet Screen (800px and below) - 2 cards per row */
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 15px;
+    }
+
+    .course-card {
+        flex-basis: 40%;
+    }
+
+    .hero-content h2{
+        font-size: 2.5vw;
+    }
+
+    .hero-content p{
+        font-size: 1.7vw;
+    }
+
+
+    
+}
+
+/* Mobile Screen (500px and below) - 1 card per row */
+@media screen and (max-width: 600px) {
+    .course-card {
+        flex-basis: 40%;
+    }
+     .categories {
+        display: none;
+    }
+    .hero-content h2{
+        font-size: 2.2vw;
+    }
+
+    .hero-content p{
+        font-size: 1.7vw;
+    }
+    .navbar__s2,.navbar__s3{
+        display: none;
+    }
+
+    .navbar__s4{
+        display: block;
+        margin-right: 10px;
+        font-size: larger;
+    }
 }
 
