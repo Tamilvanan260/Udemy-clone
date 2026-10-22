@@ -157,6 +157,9 @@ body {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: 0.2s;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .course-card:hover{
@@ -164,12 +167,23 @@ body {
 
 }
 
-
 .course-card img {
     width: 100%;
-    height: auto;
+    height: 140px;
     border-radius: 4px;
     object-fit: cover;
+}
+
+.course-card h3 {
+    font-size: 15px;
+    margin: 8px 0 4px;
+    line-height: 1.3;
+    min-height: 40px;
+}
+
+.course-card p {
+    font-size: 13px;
+    margin: 2px 0;
 }
 
 
@@ -305,12 +319,29 @@ body {
     
 }
 
-/* Mobile Screen (500px and below) - 1 card per row */
+/* Mobile Screen (600px and below) - 2 cards per row */
 @media screen and (max-width: 600px) {
-    .course-card {
-        flex-basis: 40%;
+    .recommended, .populor {
+        padding: 15px 10px;
     }
-     .categories {
+
+    .recommended__container, .populor__container {
+        justify-content: space-between;
+    }
+
+    .course-card {
+        flex-basis: 47%;
+        margin: 8px 0;
+        padding: 8px;
+        
+    }
+
+    .course-card img {
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .categories {
         display: none;
     }
 
@@ -318,7 +349,8 @@ body {
         top: 10%;
     }
     .hero-content h2{
-        font-size: 15px;
+        font-size: 14px;
+        margin-bottom: 5px;
     }
 
     .hero-content p{
@@ -333,21 +365,17 @@ body {
         margin-right: 10px;
         font-size: larger;
     }
-    .course-card{
-        width: 150px;
-        height: 120%;
-        
-    }
     
     .course-card h3 {
-        font-size: 13px;
-        padding: 2px 0;
-    }
-    .course-card p {
         font-size: 12px;
+        line-height: 1.3;
         padding: 2px 0;
+        min-height: 32px;
     }
 
-
+    .course-card p {
+        font-size: 11px;
+        padding: 1px 0;
+    }
 }
 
