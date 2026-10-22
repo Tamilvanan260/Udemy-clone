@@ -171,14 +171,7 @@ body {
     border-radius: 4px;
     object-fit: cover;
 }
-.course-card h3 {
-    font-size: 18px;
-    margin: 5px ;
-}
-.course-card p {
-    font-size: 15px;
-    margin: 5px ;
-}
+
 
 .topic {
     padding: 30px;
@@ -247,7 +240,7 @@ body {
 
     position: absolute;
     left: 3%;
-    top: 40%;
+    top: 30%;
 
     animation-name: zoom;
     animation-duration: 2s;
@@ -299,6 +292,14 @@ body {
     .hero-content p{
         font-size: 1.7vw;
     }
+    .course-card h3 {
+        font-size: 16px;
+        padding: 4px 0;
+    }
+    .course-card p {
+        font-size: 15px;
+        padding: 4px 0;
+    }
 
 
     
@@ -311,6 +312,10 @@ body {
     }
      .categories {
         display: none;
+    }
+
+    .hero-content{
+        top: 10%;
     }
     .hero-content h2{
         font-size: 15px;
@@ -332,5 +337,16 @@ body {
         aspect-ratio: 16 / 9;
         
     }
+    
+    .course-card h3 {
+        font-size: 13px;
+        padding: 2px 0;
+    }
+    .course-card p {
+        font-size: 12px;
+        padding: 2px 0;
+    }
+
+
 }
 
