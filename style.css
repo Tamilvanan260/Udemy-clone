@@ -155,12 +155,12 @@ body {
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    transition: 0.5s;
+    transition: 0.2s;
     cursor: pointer;
 }
 
 .course-card:hover{
-    transform: translateY(-10px);
+    transform: translateY(-8px);
 
 }
 
@@ -333,8 +333,9 @@ body {
         margin-right: 10px;
         font-size: larger;
     }
-    .course-card img{
-        aspect-ratio: 16 / 9;
+    .course-card{
+        width: 150px;
+        height: 120%;
         
     }
     
