@@ -322,18 +322,18 @@ body {
 /* Mobile Screen (600px and below) - 2 cards per row */
 @media screen and (max-width: 600px) {
     .recommended, .populor {
-        padding: 15px 10px;
+        padding: 15px 12px;
     }
 
     .recommended__container, .populor__container {
-        justify-content: space-between;
+        gap: 14px; 
     }
 
     .course-card {
-        flex-basis: 47%;
-        margin: 8px 0;
+        flex-grow: 1; 
+        flex-basis: 40%; 
+        margin: 0;
         padding: 8px;
-        
     }
 
     .course-card img {
